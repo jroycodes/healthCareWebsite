@@ -19,4 +19,30 @@ header {
   height: 2px;
   margin: 6px 0;
   background: #212526;
+}
+
+.section1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+.section1 h1 {
+  text-align: center;
+}
+.section1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .button1 {
+  margin: 2rem 0 2rem 0;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.section1 img {
+  max-inline-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=styles.css.map */
