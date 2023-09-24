@@ -2,4 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "div menu";
+}
+
+.menu div {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #212526;
 }/*# sourceMappingURL=styles.css.map */
