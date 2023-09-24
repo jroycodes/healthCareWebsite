@@ -1,2 +1,19 @@
 @import "./resets";
 @import "./variables";
+
+body{
+    margin: 2rem;
+}
+
+header{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-areas: "div menu";
+}
+
+.menu div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #212526;
+  }
