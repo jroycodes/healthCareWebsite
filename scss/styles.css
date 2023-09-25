@@ -98,4 +98,23 @@ header {
   color: #FFFFFF;
   padding: 3.5px 3.5px;
   margin-top: 15rem;
+}
+
+.section3 {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.section3 .sect3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section3 .sect3 h2 {
+  max-inline-size: 24ch;
+}
+.section3 .sect3 p {
+  max-inline-size: 37ch;
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */
