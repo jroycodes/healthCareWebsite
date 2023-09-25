@@ -108,3 +108,26 @@ header {
     }
   }
 }
+
+// SECTION 3
+.section3{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .sect3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    h2{
+      max-inline-size: 24ch;
+    }
+
+    p{
+      max-inline-size: 37ch;
+      background-color: red;
+    }
+  }
+  }
