@@ -1,5 +1,6 @@
 @import "./resets";
 @import "./variables";
+@import "./sections";
 
 body {
   margin: 2rem;
@@ -101,3 +102,16 @@ header {
   }
 }
 
+// SECTION 3
+.analytic {
+  background-color: $primary-color1;
+  border: 1px solid $primary-color1;
+  color: $white;
+}
+
+// SECTION 4
+.flexibility {
+  background-color: $primary-color4;
+  border: 1px solid $primary-color4;
+  color: $secondary-color;
+}
