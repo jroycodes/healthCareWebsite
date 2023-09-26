@@ -64,15 +64,10 @@ header {
   text-align: center;
   margin-bottom: 1.5rem;
 }
-.section2 h2 {
-  max-inline-size: 18ch;
-  margin-bottom: 2rem;
-}
 .section2 .sect2_div {
   display: flex;
   gap: 1rem;
   align-items: center;
-  max-inline-size: 31ch;
 }
 .section2 .sect2_div div {
   padding-top: 2.2rem;
@@ -89,32 +84,46 @@ header {
   align-items: center;
   margin-left: 2rem;
 }
-.section2 .sect2_div2 div {
-  max-inline-size: 2ch;
-  border: 1px solid #000000;
-  background-color: #000000;
-  max-width: 5rem;
-  max-height: 5rem;
-  color: #FFFFFF;
-  padding: 3.5px 3.5px;
-  margin-top: 15rem;
+.section2 .sect2_div2 .hoodie {
+  max-inline-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .section3 {
   margin-top: 4rem;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.section3 button {
+  text-align: center;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  background-color: #fc7f3a;
+  border: 1px solid #fc7f3a;
+  color: #FFFFFF;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 .section3 .sect3 {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 .section3 .sect3 h2 {
-  max-inline-size: 24ch;
+  margin: 1.2rem 0;
 }
 .section3 .sect3 p {
-  max-inline-size: 37ch;
-  background-color: red;
+  margin-bottom: 3rem;
+}
+.section3 .analytics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .analytics img {
+  max-inline-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=styles.css.map */
