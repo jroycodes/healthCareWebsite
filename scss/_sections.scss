@@ -1,0 +1,36 @@
+// SECTION 3
+.section {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  
+    button {
+      text-align: center;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      max-width: fit-content;
+    }
+  
+    .sect {
+      display: flex;
+      flex-direction: column;
+  
+      h2 {
+        // max-inline-size: 24ch;
+        margin: 1.2rem 0;
+      }
+  
+      p {
+        // max-inline-size: 37ch;
+        margin-bottom: 3rem;
+      }
+    }
+  
+    .analytics img {
+      max-inline-size: 100%;
+      object-fit: contain;
+    }
+  }
+  
