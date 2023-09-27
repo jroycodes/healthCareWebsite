@@ -6,6 +6,11 @@ body {
   margin: 2rem;
 }
 
+img {
+  max-inline-size: 100%;
+  object-fit: contain;
+}
+
 // SECTION 0
 header {
   display: grid;
@@ -30,7 +35,7 @@ header {
     text-align: center;
   }
 
-  div {
+  .section1 div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,11 +47,6 @@ header {
     padding: 1rem 3rem;
     background-color: $secondary-color;
     color: $white;
-  }
-
-  img {
-    max-inline-size: 100%;
-    object-fit: contain;
   }
 }
 
@@ -83,22 +83,12 @@ header {
     padding-top: 2.2rem;
   }
 
-  .sect2_div img {
-    max-inline-size: 100%;
-    object-fit: contain;
-  }
-
   .sect2_div2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
-
-    .hoodie {
-      max-inline-size: 100%;
-      object-fit: contain;
-    }
   }
 }
 
@@ -121,4 +111,35 @@ header {
   background-color: $primary-color3;
   border: 1px solid $primary-color3;
   color: $white;
+}
+
+// SECTION 6
+.section6 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+
+  .button{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: $white;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    max-width: fit-content;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .cities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
