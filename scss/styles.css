@@ -234,23 +234,23 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
+  margin-top: 5.5rem;
 }
 .section9 .sect9_1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 5.5rem;
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
   max-width: 20.938rem;
   min-height: 26.125rem;
 }
-.section9 span {
+.section9 .sect9_1 span {
   font-size: small;
 }
-.section9 button {
+.section9 .sect9_1 button {
   background-color: #ffc31f;
   border: 1px solid #ffc31f;
   padding: 1.2rem;
@@ -260,4 +260,25 @@ header {
 .section9 .benefits {
   display: flex;
   gap: 1rem;
+}
+.section9 .sect9_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 20.938rem;
+  min-height: 26.125rem;
+}
+.section9 .sect9_2 span {
+  font-size: small;
+}
+.section9 .sect9_2 button {
+  background-color: #fc7f3a;
+  border: 1px solid #fc7f3a;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=styles.css.map */
