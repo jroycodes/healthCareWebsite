@@ -219,7 +219,7 @@ header {
       margin-left: 0.2rem;
     }
 
-    .annual{
+    .annual {
       display: flex;
       padding-right: 1rem;
     }
@@ -227,23 +227,30 @@ header {
 }
 
 // SECTION 9
-.section9{
+.section9 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 5.5rem;
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 2rem;
-  max-width: 20.938rem;
-  min-height: 26.125rem;
 
-  span{
+  .sect9_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 5.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 20.938rem;
+    min-height: 26.125rem;
+  }
+
+  span {
     font-size: small;
   }
 
-  button{
+  button {
     background-color: $primary-color4;
     border: 1px solid $primary-color4;
     padding: 1.2rem;
@@ -251,7 +258,7 @@ header {
     margin-bottom: 1rem;
   }
 
-  .benefits{
+  .benefits {
     display: flex;
     gap: 1rem;
   }
