@@ -227,4 +227,31 @@ header {
 .section8 .plan .annual {
   display: flex;
   padding-right: 1rem;
+}
+
+.section9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 5.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 20.938rem;
+  min-height: 26.125rem;
+}
+.section9 span {
+  font-size: small;
+}
+.section9 button {
+  background-color: #ffc31f;
+  border: 1px solid #ffc31f;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.section9 .benefits {
+  display: flex;
+  gap: 1rem;
 }/*# sourceMappingURL=styles.css.map */
