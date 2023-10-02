@@ -264,6 +264,9 @@ header {
   display: flex;
   gap: 1rem;
 }
+.section9 .benefits:last-of-type {
+  margin-bottom: 1rem;
+}
 .section9 .sect9_2 {
   display: flex;
   flex-direction: column;
@@ -284,4 +287,26 @@ header {
   padding: 1.2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+.section9 .sect9_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 20.938rem;
+  min-height: 26.125rem;
+}
+.section9 .sect9_3 button {
+  background-color: #ff8484;
+  border: 1px solid #ff8484;
+  color: #FFFFFF;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.section9 .sect9_3 .benefits:last-of-type {
+  margin-bottom: 5rem;
 }/*# sourceMappingURL=styles.css.map */
