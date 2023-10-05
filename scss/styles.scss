@@ -270,7 +270,7 @@ header {
     gap: 1rem;
   }
 
-  .benefits:last-of-type{
+  .benefits:last-of-type {
     margin-bottom: 1rem;
   }
 
@@ -283,8 +283,8 @@ header {
     border: 1px solid black;
     border-radius: 10px;
     padding: 2rem;
-    max-width: 20.938rem;
-    min-height: 26.125rem;
+    max-width: 21rem;
+    min-height: 26rem;
 
     span {
       font-size: small;
@@ -300,7 +300,7 @@ header {
     }
   }
 
-  .sect9_3{
+  .sect9_3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -308,8 +308,8 @@ header {
     border: 1px solid black;
     border-radius: 10px;
     padding: 2rem;
-    max-width: 20.938rem;
-    min-height: 26.125rem;
+    max-width: 21rem;
+    min-height: 26rem;
 
     button {
       background-color: $primary-color2;
@@ -320,26 +320,42 @@ header {
       margin-bottom: 1rem;
     }
 
-    .benefits:last-of-type{
+    .benefits:last-of-type {
       margin-bottom: 5rem;
     }
   }
 }
 
-// SECTION 10 
-.section10{
+// SECTION 10
+.section10 {
+ margin-top: 7rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+ .section10_div{
   display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    border: 1px solid $secondary-color;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid $secondary-color;
+  padding: 1rem;
+  max-width: 21rem;
+  min-height: 26rem;
+  border-radius: 10px;
+  color: $white;
+  background-color: $secondary-color;
+
+  h2{
+    margin-bottom: 3rem;
+  }
+
+  button{
+    padding: 1rem 3.5rem;
     border-radius: 10px;
-    max-width: 20.938rem;
-    min-height: 3rem;
-    text-align: center;
-    margin-top: 7rem;
-    background-color: $secondary-color;
-    color: $white;
-    
+    border: 1px solid $secondary-color;
+    margin-bottom: 6rem;
+  }
+ }
 }
