@@ -278,8 +278,8 @@ header {
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
-  max-width: 20.938rem;
-  min-height: 26.125rem;
+  max-width: 21rem;
+  min-height: 26rem;
 }
 .section9 .sect9_2 span {
   font-size: small;
@@ -300,8 +300,8 @@ header {
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
-  max-width: 20.938rem;
-  min-height: 26.125rem;
+  max-width: 21rem;
+  min-height: 26rem;
 }
 .section9 .sect9_3 button {
   background-color: #ff8484;
@@ -316,17 +316,30 @@ header {
 }
 
 .section10 {
+  margin-top: 7rem;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  gap: 2rem;
   align-items: center;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  max-width: 20.938rem;
-  min-height: 3rem;
+}
+.section10 .section10_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-top: 7rem;
-  background-color: #000000;
+  border: 1px solid #000000;
+  padding: 1rem;
+  max-width: 21rem;
+  min-height: 26rem;
+  border-radius: 10px;
   color: #FFFFFF;
+  background-color: #000000;
+}
+.section10 .section10_div h2 {
+  margin-bottom: 3rem;
+}
+.section10 .section10_div button {
+  padding: 1rem 3.5rem;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  margin-bottom: 6rem;
 }/*# sourceMappingURL=styles.css.map */
