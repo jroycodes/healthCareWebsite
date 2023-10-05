@@ -1,0 +1,13 @@
+@mixin heading-styles($heading) {
+  @if $heading == "H1" {
+    font-weight: medium;
+    font-size: 40px;
+    line-height: 46;
+    letter-spacing: -3%;
+  } @else if $heading == "H2" {
+    font-weight: medium;
+    font-size: 30px;
+    line-height: 40;
+    letter-spacing: -1%;
+  }
+}
