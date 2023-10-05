@@ -328,34 +328,52 @@ header {
 
 // SECTION 10
 .section10 {
- margin-top: 7rem;
- display: flex;
- justify-content: center;
- align-items: center;
-
-
- .section10_div{
+  margin-top: 7rem;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  border: 1px solid $secondary-color;
-  padding: 1rem;
-  max-width: 21rem;
-  min-height: 26rem;
-  border-radius: 10px;
-  color: $white;
-  background-color: $secondary-color;
 
-  h2{
-    margin-bottom: 3rem;
-  }
-
-  button{
-    padding: 1rem 3.5rem;
-    border-radius: 10px;
+  .section10_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     border: 1px solid $secondary-color;
-    margin-bottom: 6rem;
+    padding: 1rem;
+    max-width: 21rem;
+    min-height: 26rem;
+    border-radius: 10px;
+    color: $white;
+    background-color: $secondary-color;
+
+    h2 {
+      margin-bottom: 3rem;
+    }
+
+    button {
+      padding: 1rem 3.5rem;
+      border-radius: 10px;
+      border: 1px solid $secondary-color;
+      margin-bottom: 6rem;
+    }
+
+    .nav {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 3rem;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+
+      a:first-of-type{
+        color: $primary-color1;
+      }
+    }
+
+    p{
+      margin-bottom: 1rem;
+    }
   }
- }
 }
