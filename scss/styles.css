@@ -31,7 +31,7 @@
 .section .analytics img {
   max-inline-size: 100%;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 img {
   max-inline-size: 100%;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 header {
@@ -64,6 +64,8 @@ header {
   margin-top: 5rem;
   margin-bottom: 5rem;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .section1 h1 {
   text-align: center;
@@ -78,7 +80,7 @@ header {
   border-radius: 10px;
   padding: 1rem 3rem;
   background-color: #000000;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .section2 {
@@ -94,7 +96,7 @@ header {
   border-radius: 6px;
   background-color: #ff8484;
   padding: 0.6rem 1.5rem;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -117,7 +119,7 @@ header {
 .analytic {
   background-color: #fc7f3a;
   border: 1px solid #fc7f3a;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .flexibility {
@@ -129,7 +131,7 @@ header {
 .business {
   background-color: #6652da;
   border: 1px solid #6652da;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .section6 {
@@ -144,7 +146,7 @@ header {
   text-align: center;
   padding: 0.5rem 1rem;
   border-radius: 6px;
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #ff8484;
   border: 1px solid #ff8484;
   max-width: -moz-fit-content;
@@ -236,6 +238,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   margin-top: 5.5rem;
 }
@@ -284,7 +287,7 @@ header {
 .section9 .sect9_2 button {
   background-color: #fc7f3a;
   border: 1px solid #fc7f3a;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 1.2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
@@ -303,7 +306,7 @@ header {
 .section9 .sect9_3 button {
   background-color: #ff8484;
   border: 1px solid #ff8484;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 1.2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
@@ -325,5 +328,5 @@ header {
   text-align: center;
   margin-top: 7rem;
   background-color: #000000;
-  color: #ffffff;
-} /*# sourceMappingURL=styles.css.map */
+  color: #FFFFFF;
+}/*# sourceMappingURL=styles.css.map */
