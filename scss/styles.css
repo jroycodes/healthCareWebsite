@@ -342,4 +342,19 @@ header {
   border-radius: 10px;
   border: 1px solid #000000;
   margin-bottom: 6rem;
+}
+.section10 .section10_div .nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.section10 .section10_div .nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.section10 .section10_div .nav a:first-of-type {
+  color: #fc7f3a;
+}
+.section10 .section10_div p {
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=styles.css.map */
