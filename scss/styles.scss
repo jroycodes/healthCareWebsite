@@ -28,8 +28,14 @@ header {
   background: $secondary-color;
 }
 
-h1, h2, h3, p, a, button{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 // SECTION 1
@@ -205,33 +211,47 @@ h1, h2, h3, p, a, button{
   text-align: center;
   gap: 1rem;
   margin-top: 5rem;
-
-  .plan {
+  
+  .button_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    border: 2px solid $secondary-color;
+    flex-wrap: nowrap;
     border-radius: 10px;
-    min-width: 17.313rem;
-    min-height: 3rem;
+    border: 1px solid $secondary-color;
+  }
 
-    .monthly {
-      border-radius: 10px;
-      min-width: 9.5rem;
-      min-height: 2.5rem;
-      background-color: black;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 0.2rem;
-    }
+  p{
+    margin-bottom: 1.5rem;
+  }
 
-    .annual {
-      display: flex;
-      padding-right: 1rem;
-    }
+  .option1,
+  .option2 {
+    display: inline-block;
+    padding: 12px 2.5rem;
+    margin: 3px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .option1 {
+    background-color: $secondary-color;
+    border-radius: 10px;
+  }
+
+  .option2 {
+    background-color: $white;
+    color: $secondary-color;
+    border-radius: 10px;
+  }
+
+  .option1:hover {
+    background-color: $primary-color3;
+  }
+  .option2:hover {
+    background-color: $primary-color4;
   }
 }
 
@@ -371,12 +391,12 @@ h1, h2, h3, p, a, button{
         color: $white;
       }
 
-      a:first-of-type{
+      a:first-of-type {
         color: $primary-color1;
       }
     }
 
-    p{
+    p {
       margin-bottom: 1rem;
     }
   }
