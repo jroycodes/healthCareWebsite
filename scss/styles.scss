@@ -1,7 +1,6 @@
 @import "./resets";
 @import "./variables";
 @import "./sections";
-@import "./mixins";
 
 body {
   margin: 2rem;
@@ -15,14 +14,6 @@ img {
   object-fit: contain;
 }
 
-h1 {
-  @include h1;
-  font-size: 40px;
-}
-
-h2{
-  @include text;
-}
 
 // SECTION 0
 header {
@@ -69,7 +60,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 3.5rem;
-
+  
   button {
     border: 1px solid $primary-color2;
     border-radius: 6px;
