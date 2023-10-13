@@ -1,3 +1,16 @@
-.section{
+.blog1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+
+    h2{
+        text-align: center;
+    }
+
+    p:first-of-type{
+        text-align: center;
+    }
+
 }
