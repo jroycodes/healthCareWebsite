@@ -12,3 +12,17 @@
     gap: 1rem;
   }
 }
+
+.about_rmh{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
