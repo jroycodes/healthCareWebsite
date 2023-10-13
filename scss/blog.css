@@ -1,3 +1,13 @@
-.section {
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 4rem;
+}
+.blog1 h2 {
+  text-align: center;
+}
+.blog1 p:first-of-type {
+  text-align: center;
 }/*# sourceMappingURL=blog.css.map */
