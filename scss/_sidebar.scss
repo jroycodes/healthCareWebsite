@@ -20,6 +20,19 @@
   gap: 1rem;
   cursor: pointer;
   text-align: left;
+  
+  a{
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+
+a:first-child{
+  color: $primary-color1;
+}
+
+a:hover{
+  color: $primary-color1;
 }
 
 .sidebar div {
@@ -33,6 +46,14 @@
   left: 1.56rem;
   font-size: 36px;
   float: left;
+}
+
+.closebtn:hover{
+  color: $primary-color1;
+}
+
+.openbtn:hover{
+  color: $primary-color1;
 }
 
 .openbtn {
