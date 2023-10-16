@@ -1,3 +1,5 @@
+"use strict";
+
 // Opens sidebar when clicked
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
