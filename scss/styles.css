@@ -49,7 +49,7 @@
 }
 
 .baritem {
-  padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
