@@ -1,6 +1,8 @@
 @import "./resets";
 @import "./variables";
 @import "./sections";
+@import "./sidebar";
+
 html {
   font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
 }
