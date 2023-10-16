@@ -1,6 +1,9 @@
 @import "./resets";
 @import "./variables";
 @import "./sections";
+html{
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+}
 
 body {
   margin: 2rem;
