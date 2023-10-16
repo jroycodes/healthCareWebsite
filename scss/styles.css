@@ -58,6 +58,18 @@
   cursor: pointer;
   text-align: left;
 }
+.baritem a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:first-child {
+  color: #fc7f3a;
+}
+
+a:hover {
+  color: #fc7f3a;
+}
 
 .sidebar div {
   cursor: pointer;
@@ -70,6 +82,14 @@
   left: 1.56rem;
   font-size: 36px;
   float: left;
+}
+
+.closebtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn:hover {
+  color: #fc7f3a;
 }
 
 .openbtn {
