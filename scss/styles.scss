@@ -24,9 +24,8 @@ img {
 
 // SECTION 0
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "div menu";
+  display: flex;
+  justify-content: space-between;
 }
 
 // DESKTOP
