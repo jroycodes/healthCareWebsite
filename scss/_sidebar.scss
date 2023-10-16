@@ -1,0 +1,55 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    transition: 0.5s;
+    padding-top: 3.75rem;
+    z-index: 1; /* Set a higher z-index value */
+  }
+  
+  .baritem {
+    padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: left;
+    background-color: black;
+  }
+  
+  .sidebar div {
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 1.56rem;
+    font-size: 36px;
+    float: left;
+  }
+  
+  .openbtn {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: lightblue;
+    float: right;
+  }
+  
+  .openbtn.hide{
+    display: none;
+  }
+  
+  #main {
+    transition: margin-right 0.5s;
+  }
