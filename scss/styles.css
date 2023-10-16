@@ -45,7 +45,7 @@
   background-color: lightblue;
   transition: 0.5s;
   padding-top: 3.75rem;
-  z-index: 1; /* Set a higher z-index value */
+  z-index: 1;
 }
 
 .baritem {
@@ -77,10 +77,11 @@
 
 .openbtn {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   cursor: pointer;
-  background-color: lightblue;
   float: right;
+  background-color: #FFFFFF;
+  border: none;
 }
 
 .openbtn.hide {
@@ -111,9 +112,8 @@ img {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "div menu";
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 576px) {
