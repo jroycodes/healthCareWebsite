@@ -26,7 +26,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  // flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -40,7 +40,7 @@ header {
   align-items: center;
   flex-shrink: inherit;
   gap: 4rem;
-  border: 1px solid black;
+  border: 1px solid $secondary-color;
   border-radius: 10px;
   font-size: large;
   background-color: $Yellow-light;
@@ -57,14 +57,45 @@ header {
   border: $primary-color1;
 }
 
-@media screen and (min-width: 36rem) {
+// MOBILE
+@media screen and (max-width: 36rem) {
+  .desktop_menu,
+  .getStarted button {
+    display: none;
+  }
+}
+
+// TABLET
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
   header {
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .menu {
     display: none;
   }
+
+  .desktop_menu {
+    border: none;
+    gap: 2rem;
+  }
+
+  .getStarted button {
+    display: none;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 62.063rem) {
+  header {
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+
+ .menu{
+  display: none;
+}
 }
 
 // SECTION 1
