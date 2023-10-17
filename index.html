@@ -13,20 +13,30 @@
         <img src="Assets/Mobile/Logo.svg" alt="Healthcare logo" />
       </div>
 
+      <!-- Sidebar -->
+      <div id="main">
+        <button class="openbtn" id="button" onclick="openNav()">&#9776;</button>
+      </div>
+
+      <!-- Sidebar items -->
+      <div id="mySidebar" class="sidebar">
+        <div class="closebtn" onclick="closeNav()">&#128473;</div>
+        <div class="baritem">
+          <a href="about.html">About</a>
+          <a href="about.html">Services</a>
+          <a href="blog.html">Blog</a>
+          <a href="blog.html">Pricing</a>
+        </div>
+      </div>
+
       <!-- DESKTOP MENU -->
-      <div class="desktop_menu" style="display: none;">
+      <div class="desktop_menu">
         <div class="option1">Platform</div>
         <div class="option2">About</div>
         <div class="option3">Services</div>
         <div class="option4">About</div>
         <div class="option5">About</div>
       </div>
-
-      <label class="menu">
-        <div></div>
-        <div></div>
-        <div></div>
-      </label>
     </header>
     <main>
       <!-- SECTION 1 -->
@@ -326,6 +336,7 @@
           <p>Terms • Privacy Policy</p>
         </div>
       </section>
+      <script src="script.js"></script>
     </main>
   </body>
 </html>

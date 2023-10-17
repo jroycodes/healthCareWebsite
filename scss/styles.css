@@ -35,6 +35,80 @@
      object-fit: contain;
 }
 
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 3.75rem;
+  z-index: 1;
+  background-color: $white;
+}
+
+.baritem {
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: left;
+}
+.baritem a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:first-child {
+  color: #fc7f3a;
+}
+
+a:hover {
+  color: #fc7f3a;
+}
+
+.sidebar div {
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 1.56rem;
+  font-size: 36px;
+  float: left;
+}
+
+.closebtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn {
+  display: block;
+  font-size: 1.7rem;
+  cursor: pointer;
+  float: right;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.openbtn.hide {
+  display: none;
+}
+
+#main {
+  transition: margin-right 0.5s;
+}
+
 html {
   font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
 }
@@ -55,9 +129,8 @@ img {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "div menu";
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 576px) {
@@ -67,7 +140,7 @@ header {
 }
 .desktop_menu {
   background-color: orangered;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   border: 1px solid #000000;

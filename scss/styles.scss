@@ -1,7 +1,9 @@
 @import "./resets";
 @import "./variables";
 @import "./sections";
-html{
+@import "./sidebar";
+
+html {
   font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
 }
 
@@ -22,9 +24,8 @@ img {
 
 // SECTION 0
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "div menu";
+  display: flex;
+  justify-content: space-between;
 }
 
 // DESKTOP
