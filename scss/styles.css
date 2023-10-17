@@ -45,7 +45,7 @@
   transition: 0.5s;
   padding-top: 3.75rem;
   z-index: 1;
-  background-color: #FFFFFF;
+  background-color: $white;
 }
 
 .baritem {
