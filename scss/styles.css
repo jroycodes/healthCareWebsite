@@ -110,7 +110,7 @@ a:hover {
 }
 
 html {
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.3rem);
 }
 
 body {
@@ -131,9 +131,43 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
+.logo {
+  display: flex;
+}
+
+.desktop_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: inherit;
+  gap: 4rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: large;
+  background-color: #F9F7EE;
+  min-width: 32rem;
+  min-height: 2.5rem;
+}
+
+.getStarted button {
+  background-color: #fc7f3a;
+  color: #FFFFFF;
+  min-width: 8rem;
+  min-height: 2.5rem;
+  border-radius: 10px;
+  border: #fc7f3a;
+}
+
+@media screen and (min-width: 36rem) {
+  header {
+    justify-content: space-evenly;
+  }
+  .menu {
+    display: none;
+  }
+}
 .section1 {
   margin-top: 5rem;
   margin-bottom: 5rem;
