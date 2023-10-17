@@ -2,8 +2,8 @@
 
 // Opens sidebar when clicked
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginRight = "250px";
+  document.getElementById("mySidebar").style.width = "15.625rem";
+  document.getElementById("main").style.marginRight = "15.625rem";
   document.getElementById("button").classList.add("hide");
 }
 
