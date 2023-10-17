@@ -4,7 +4,7 @@
 @import "./sidebar";
 
 html {
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.3rem);
 }
 
 body {
@@ -26,62 +26,46 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
 }
 
 // DESKTOP
-// @media screen and (min-width: 576px) {
-//   .menu {
-//     display: none;
-//   }
-// }
-// .desktop_menu {
-//   background-color: orangered;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   border: 1px solid $secondary-color;
-//   border-radius: 10px;
-// }
+.desktop_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: inherit;
+  gap: 4rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: large;
+  background-color: $Yellow-light;
+  min-width: 32rem;
+  min-height: 2.5rem;
+}
 
-// .option1,
-// .option2,
-// .option3,
-// .option4,
-// .option5 {
-//   display: inline-block;
-//   padding: 12px 2.5rem;
-//   margin: 3px;
-//   color: $white;
-//   cursor: pointer;
-//   outline: none;
-//   transition: background-color 0.3s ease;
-// }
+.getStarted button {
+  background-color: $primary-color1;
+  color: $white;
+  min-width: 8rem;
+  min-height: 2.5rem;
+  border-radius: 10px;
+  border: $primary-color1;
+}
 
-// .option {
-//   background-color: $secondary-color;
-//   border-radius: 10px;
-// }
+@media screen and (min-width: 36rem) {
+  header {
+    justify-content: space-evenly;
+  }
 
-// .option {
-//   background-color: $white;
-//   color: $secondary-color;
-//   border-radius: 10px;
-// }
-
-// .option1:hover {
-//   background-color: $primary-color3;
-// }
-// .option2:hover {
-//   background-color: $primary-color4;
-// }
-
-// .menu div {
-//   width: 30px;
-//   height: 2px;
-//   margin: 6px 0;
-//   background: $secondary-color;
-// }
+  .menu {
+    display: none;
+  }
+}
 
 // SECTION 1
 .section1 {
