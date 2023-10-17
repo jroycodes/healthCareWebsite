@@ -151,6 +151,9 @@ header {
   min-width: 32rem;
   min-height: 2.5rem;
 }
+.desktop_menu .option1 {
+  color: #fc7f3a;
+}
 
 .getStarted button {
   background-color: #fc7f3a;
