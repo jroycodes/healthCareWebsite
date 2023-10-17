@@ -46,7 +46,12 @@ header {
   background-color: $Yellow-light;
   min-width: 32rem;
   min-height: 2.5rem;
+
+  .option1{
+    color: $primary-color1;
+  }
 }
+
 
 .getStarted button {
   background-color: $primary-color1;
