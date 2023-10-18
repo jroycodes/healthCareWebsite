@@ -98,6 +98,10 @@ header {
   .desktop_menu {
     border: none;
     gap: 2rem;
+    
+    a:hover{
+      color: $primary-color1;
+    } 
   }
 
   .getStarted button {
@@ -123,6 +127,10 @@ header {
   h1 {
     max-inline-size: 22ch;
   }
+
+  a:hover{
+    color: $primary-color1;
+  }  
 }
 
 // SECTION 1

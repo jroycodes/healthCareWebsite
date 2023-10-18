@@ -196,6 +196,9 @@ header {
     border: none;
     gap: 2rem;
   }
+  .desktop_menu a:hover {
+    color: #fc7f3a;
+  }
   .getStarted button {
     display: none;
   }
@@ -213,6 +216,9 @@ header {
   }
   h1 {
     max-inline-size: 22ch;
+  }
+  a:hover {
+    color: #fc7f3a;
   }
 }
 .section1 {
