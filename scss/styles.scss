@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: system-ui, -apple-system;
-  background-color: $white
+  background-color: $white;
 }
 
 img {
@@ -76,7 +76,7 @@ header {
   border: $primary-color1;
 }
 
-#getStarted{
+#getStarted {
   transition: transform 0.3s ease-in-out;
 }
 
@@ -107,10 +107,10 @@ header {
   .desktop_menu {
     border: none;
     gap: 2rem;
-    
-    a:hover{
+
+    a:hover {
       color: $primary-color1;
-    } 
+    }
   }
 
   .getStarted button {
@@ -137,9 +137,9 @@ header {
     max-inline-size: 22ch;
   }
 
-  a:hover{
+  a:hover {
     color: $primary-color1;
-  }  
+  }
 }
 
 // SECTION 1
@@ -163,15 +163,14 @@ header {
     border-radius: 10px;
     background-color: $secondary-color;
     color: $white;
-
   }
 
-  .button1:hover{
+  .button1:hover {
     transform: scale(1.2);
     cursor: pointer;
   }
 
-  .button1{
+  .button1 {
     transition: transform 0.3s ease-in-out;
   }
 }
@@ -224,6 +223,32 @@ header {
   background-color: $primary-color1;
   border: 1px solid $primary-color1;
   color: $white;
+}
+
+h2{
+  max-inline-size: 24ch ;
+}
+
+.analytics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sect {
+  p {
+    max-inline-size: 38ch;
+  }
+}
+
+@media screen and (min-width: 36rem) {
+  .analytics{
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+  }
+  h2{
+    max-inline-size: 16ch ;
+  }
 }
 
 // SECTION 4
