@@ -4,13 +4,12 @@
 @import "./sidebar";
 @import "./mixins";
 
-h1{
+h1 {
   font-size: clamp(2.5rem, 4vw, 5.75rem);
   text-align: center;
-  // max-inline-size: 22ch;
 }
 
-h2{
+h2 {
   font-size: clamp(1.875rem, 2.5vw, 3.5rem);
 }
 
@@ -53,21 +52,20 @@ header {
   min-width: 32rem;
   min-height: 2.5rem;
 
-  a{
+  a {
     text-decoration: none;
     color: $secondary-color;
   }
 
-  .option1{
+  .option1 {
     color: $primary-color1;
     padding-left: 1rem;
   }
 
-  .option5{
+  .option5 {
     padding-right: 1rem;
   }
 }
-
 
 .getStarted button {
   background-color: $primary-color1;
@@ -105,6 +103,10 @@ header {
   .getStarted button {
     display: none;
   }
+
+  h1 {
+    max-inline-size: 26ch;
+  }
 }
 
 // DESKTOP
@@ -114,9 +116,13 @@ header {
     flex-wrap: nowrap;
   }
 
- .menu{
-  display: none;
-}
+  .menu {
+    display: none;
+  }
+
+  h1 {
+    max-inline-size: 22ch;
+  }
 }
 
 // SECTION 1
@@ -135,8 +141,9 @@ header {
 
   .button1 {
     margin: 2rem 0 2rem 0;
+    min-width: 11.8rem;
+    min-height: 3.3rem;
     border-radius: 10px;
-    padding: 1rem 3rem;
     background-color: $secondary-color;
     color: $white;
   }
@@ -150,6 +157,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 3.5rem;
+  background-color: $yellow-yellow;
 
   button {
     border: 1px solid $primary-color2;
