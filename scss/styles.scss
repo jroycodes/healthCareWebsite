@@ -76,6 +76,15 @@ header {
   border: $primary-color1;
 }
 
+#getStarted{
+  transition: transform 0.3s ease-in-out;
+}
+
+#getStarted:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 // MOBILE
 @media screen and (max-width: 36rem) {
   .desktop_menu,
@@ -154,6 +163,16 @@ header {
     border-radius: 10px;
     background-color: $secondary-color;
     color: $white;
+
+  }
+
+  .button1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .button1{
+    transition: transform 0.3s ease-in-out;
   }
 }
 

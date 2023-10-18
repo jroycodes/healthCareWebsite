@@ -178,6 +178,15 @@ header {
   border: #fc7f3a;
 }
 
+#getStarted {
+  transition: transform 0.3s ease-in-out;
+}
+
+#getStarted:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 36rem) {
   .desktop_menu,
   .getStarted button {
@@ -240,6 +249,13 @@ header {
   border-radius: 10px;
   background-color: #000000;
   color: #FFFFFF;
+}
+.section1 .button1:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.section1 .button1 {
+  transition: transform 0.3s ease-in-out;
 }
 
 .section2 {
