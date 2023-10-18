@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: system-ui, -apple-system;
-  background-color: $white;
+  background-color: $white
 }
 
 img {
@@ -76,7 +76,7 @@ header {
   border: $primary-color1;
 }
 
-#getStarted {
+#getStarted{
   transition: transform 0.3s ease-in-out;
 }
 
@@ -107,11 +107,10 @@ header {
   .desktop_menu {
     border: none;
     gap: 2rem;
-
-    a:hover {
+    a:hover{
       color: $primary-color1;
     }
-  }
+}
 
   .getStarted button {
     display: none;
@@ -137,9 +136,9 @@ header {
     max-inline-size: 22ch;
   }
 
-  a:hover {
+ a:hover{
     color: $primary-color1;
-  }
+ }
 }
 
 // SECTION 1
