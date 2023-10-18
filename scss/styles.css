@@ -261,10 +261,11 @@ header {
 .section2 {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   gap: 3.5rem;
   background-color: #FFFFFF;
+  margin-bottom: 9.3rem;
 }
 .section2 button {
   border: 1px solid #ff8484;
@@ -283,7 +284,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .section2 .wellbeing h3 {
   font-size: clamp(1.375rem, 3.5vw, 1.625rem);
@@ -298,6 +299,13 @@ header {
   max-inline-size: 22ch;
 }
 
+@media screen and (min-width: 62.063rem) {
+  .section2 {
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+  }
+}
 .analytic {
   background-color: #fc7f3a;
   border: 1px solid #fc7f3a;
@@ -311,17 +319,18 @@ h2 {
 .analytics {
   display: flex;
   flex-wrap: wrap;
+  gap: 3.5rem;
 }
 
 .sect p {
   max-inline-size: 38ch;
 }
 
-@media screen and (min-width: 36rem) {
+@media screen and (min-width: 62.063rem) {
   .analytics {
     justify-content: center;
     align-items: center;
-    gap: 6.25rem;
+    gap: 15rem;
   }
   h2 {
     max-inline-size: 16ch;
