@@ -195,6 +195,10 @@ header {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
+    h3{
+      font-size: clamp(1.375rem, 3.5vw, 1.625rem);
+    }
   }
 
   .sect2_div {

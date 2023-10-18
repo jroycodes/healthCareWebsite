@@ -278,6 +278,9 @@ header {
   justify-content: center;
   gap: 2rem;
 }
+.section2 .wellbeing h3 {
+  font-size: clamp(1.375rem, 3.5vw, 1.625rem);
+}
 .section2 .sect2_div {
   display: flex;
   gap: 1rem;
