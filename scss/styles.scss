@@ -22,6 +22,15 @@ body {
   background-color: $white;
 }
 
+Button {
+  transition: transform 0.3s ease-in-out;
+}
+
+Button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 img {
   max-inline-size: 100%;
   object-fit: contain;
@@ -74,15 +83,6 @@ header {
   min-height: 2.5rem;
   border-radius: 10px;
   border: $primary-color1;
-}
-
-#getStarted {
-  transition: transform 0.3s ease-in-out;
-}
-
-#getStarted:hover {
-  transform: scale(1.2);
-  cursor: pointer;
 }
 
 // MOBILE
@@ -163,15 +163,6 @@ header {
     border-radius: 10px;
     background-color: $secondary-color;
     color: $white;
-  }
-
-  .button1:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-
-  .button1 {
-    transition: transform 0.3s ease-in-out;
   }
 }
 
