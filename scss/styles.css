@@ -128,6 +128,15 @@ body {
   background-color: #FFFFFF;
 }
 
+Button {
+  transition: transform 0.3s ease-in-out;
+}
+
+Button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 img {
   max-inline-size: 100%;
   -o-object-fit: contain;
@@ -176,15 +185,6 @@ header {
   min-height: 2.5rem;
   border-radius: 10px;
   border: #fc7f3a;
-}
-
-#getStarted {
-  transition: transform 0.3s ease-in-out;
-}
-
-#getStarted:hover {
-  transform: scale(1.2);
-  cursor: pointer;
 }
 
 @media screen and (max-width: 36rem) {
@@ -250,19 +250,11 @@ header {
   background-color: #000000;
   color: #FFFFFF;
 }
-.section1 .button1:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
-.section1 .button1 {
-  transition: transform 0.3s ease-in-out;
-}
 
 .section2 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   gap: 3.5rem;
   background-color: #FFFFFF;
@@ -276,6 +268,19 @@ header {
   text-align: center;
   margin-bottom: 1.5rem;
 }
+.section2 h2 {
+  max-inline-size: 18ch;
+}
+.section2 .wellbeing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.section2 .wellbeing h3 {
+  font-size: clamp(1.375rem, 3.5vw, 1.625rem);
+}
 .section2 .sect2_div {
   display: flex;
   gap: 1rem;
@@ -283,13 +288,7 @@ header {
 }
 .section2 .sect2_div div {
   padding-top: 2.2rem;
-}
-.section2 .sect2_div2 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2rem;
+  max-inline-size: 22ch;
 }
 
 .analytic {

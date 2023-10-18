@@ -19,7 +19,16 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: system-ui, -apple-system;
-  background-color: $white
+  background-color: $white;
+}
+
+Button {
+  transition: transform 0.3s ease-in-out;
+}
+
+Button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 img {
@@ -76,15 +85,6 @@ header {
   border: $primary-color1;
 }
 
-#getStarted{
-  transition: transform 0.3s ease-in-out;
-}
-
-#getStarted:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
 // MOBILE
 @media screen and (max-width: 36rem) {
   .desktop_menu,
@@ -107,10 +107,10 @@ header {
   .desktop_menu {
     border: none;
     gap: 2rem;
-    
-    a:hover{
+
+    a:hover {
       color: $primary-color1;
-    } 
+    }
   }
 
   .getStarted button {
@@ -137,9 +137,9 @@ header {
     max-inline-size: 22ch;
   }
 
-  a:hover{
+  a:hover {
     color: $primary-color1;
-  }  
+  }
 }
 
 // SECTION 1
@@ -163,16 +163,6 @@ header {
     border-radius: 10px;
     background-color: $secondary-color;
     color: $white;
-
-  }
-
-  .button1:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-
-  .button1{
-    transition: transform 0.3s ease-in-out;
   }
 }
 
@@ -180,8 +170,7 @@ header {
 .section2 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   gap: 3.5rem;
   background-color: $white;
@@ -196,9 +185,21 @@ header {
     margin-bottom: 1.5rem;
   }
 
-  // h2 {
-  //   // max-inline-size: 18ch;
-  // }
+  h2 {
+    max-inline-size: 18ch;
+  }
+
+  .wellbeing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    h3{
+      font-size: clamp(1.375rem, 3.5vw, 1.625rem);
+    }
+  }
 
   .sect2_div {
     display: flex;
@@ -208,14 +209,7 @@ header {
 
   .sect2_div div {
     padding-top: 2.2rem;
-  }
-
-  .sect2_div2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2rem;
+    max-inline-size: 22ch;
   }
 }
 
