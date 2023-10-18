@@ -250,6 +250,13 @@ header {
   background-color: #000000;
   color: #FFFFFF;
 }
+.section1 .button1:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.section1 .button1 {
+  transition: transform 0.3s ease-in-out;
+}
 
 .section2 {
   display: flex;
@@ -297,6 +304,29 @@ header {
   color: #FFFFFF;
 }
 
+h2 {
+  max-inline-size: 24ch;
+}
+
+.analytics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sect p {
+  max-inline-size: 38ch;
+}
+
+@media screen and (min-width: 36rem) {
+  .analytics {
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+  }
+  h2 {
+    max-inline-size: 16ch;
+  }
+}
 .flexibility {
   background-color: #ffc31f;
   border: 1px solid #ffc31f;

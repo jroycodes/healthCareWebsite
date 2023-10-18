@@ -164,6 +164,15 @@ header {
     background-color: $secondary-color;
     color: $white;
   }
+
+  .button1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .button1 {
+    transition: transform 0.3s ease-in-out;
+  }
 }
 
 // SECTION 2
@@ -218,6 +227,32 @@ header {
   background-color: $primary-color1;
   border: 1px solid $primary-color1;
   color: $white;
+}
+
+h2{
+  max-inline-size: 24ch ;
+}
+
+.analytics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sect {
+  p {
+    max-inline-size: 38ch;
+  }
+}
+
+@media screen and (min-width: 36rem) {
+  .analytics{
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+  }
+  h2{
+    max-inline-size: 16ch ;
+  }
 }
 
 // SECTION 4
