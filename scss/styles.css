@@ -298,6 +298,29 @@ header {
   color: #FFFFFF;
 }
 
+h2 {
+  max-inline-size: 24ch;
+}
+
+.analytics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sect p {
+  max-inline-size: 38ch;
+}
+
+@media screen and (min-width: 36rem) {
+  .analytics {
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+  }
+  h2 {
+    max-inline-size: 16ch;
+  }
+}
 .flexibility {
   background-color: #ffc31f;
   border: 1px solid #ffc31f;
