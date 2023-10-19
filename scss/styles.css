@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 .section .sect h2 {
-  margin: 1.2rem 0;
+  margin: 0.7rem 0 1.125rem 0;
 }
 .section .sect p {
   margin-bottom: 3rem;
@@ -305,6 +305,9 @@ header {
     align-items: center;
     gap: 15rem;
   }
+  .section2 .wellbeing {
+    gap: 2.5rem;
+  }
 }
 .analytic {
   background-color: #fc7f3a;
@@ -320,12 +323,20 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 3.5rem;
+  margin-bottom: 9.3rem;
+  background-color: yellowgreen;
 }
 
 .sect p {
   max-inline-size: 38ch;
 }
 
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  .analytics {
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 62.063rem) {
   .analytics {
     justify-content: center;
@@ -342,6 +353,38 @@ h2 {
   color: #000000;
 }
 
+h2 {
+  max-inline-size: 20ch;
+}
+
+.flexible {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  background-color: orangered;
+}
+
+.sect p {
+  max-inline-size: 38ch;
+}
+
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  .flexible {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 62.063rem) {
+  .flexible {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+  }
+  h2 {
+    max-inline-size: 16ch;
+  }
+}
 .business {
   background-color: #6652da;
   border: 1px solid #6652da;
