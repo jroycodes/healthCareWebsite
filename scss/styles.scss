@@ -22,6 +22,16 @@ body {
   background-color: $white;
 }
 
+button{
+  transition: transform 0.3s ease-in-out;
+  font-size: large;
+}
+
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 img {
   max-inline-size: 100%;
   object-fit: contain;
@@ -74,15 +84,6 @@ header {
   min-height: 2.5rem;
   border-radius: 10px;
   border: $primary-color1;
-}
-
-#getStarted {
-  transition: transform 0.3s ease-in-out;
-}
-
-#getStarted:hover {
-  transform: scale(1.2);
-  cursor: pointer;
 }
 
 // MOBILE
@@ -163,15 +164,6 @@ header {
     background-color: $secondary-color;
     color: $white;
   }
-
-  .button1:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-
-  .button1 {
-    transition: transform 0.4s ease-in-out;
-  }
 }
 
 // SECTION 2 responsive
@@ -249,7 +241,6 @@ h2 {
   flex-wrap: wrap;
   gap: 3.5rem;
   margin-bottom: 9.3rem;
-  background-color: yellowgreen;
 }
 
 .sect {
@@ -293,7 +284,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 3.5rem;
-  background-color: orangered;
 }
 
 .sect {
