@@ -456,20 +456,19 @@ h2 {
 .section7 {
   margin-top: 4.5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 .section7 .citys {
   margin-bottom: 1rem;
 }
 .section7 .marquees {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-}
-.section7 .marquees .city {
-  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .exception {
@@ -480,7 +479,7 @@ h2 {
   min-height: 26.125rem;
 }
 .exception .siemens {
-  padding-bottom: 3rem;
+  padding-bottom: 2.8rem;
 }
 .exception div {
   display: flex;
@@ -490,6 +489,12 @@ h2 {
   line-height: 2.125rem;
 }
 
+@media screen and (max-width: 46.875rem) {
+  #exception2 {
+    background-color: yellowgreen;
+    display: none;
+  }
+}
 .section8 {
   display: flex;
   flex-direction: column;
