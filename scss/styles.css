@@ -411,8 +411,8 @@ h2 {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
 }
 .section6 .button {
@@ -425,15 +425,33 @@ h2 {
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
-.section6 h2 {
+.section6 h1 {
   text-align: center;
+  font-size: clamp(1.875rem, 2.5vw, 3.5rem);
 }
 .section6 .cities {
   display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.section6 .hidden {
+  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
+@media screen and (min-width: 25rem) {
+  .cities img {
+    display: none;
+  }
+}
+@media screen and (max-width: 25rem) {
+  .hidden img {
+    display: none;
+  }
+}
 /* SECTION 7 */
 .section7 {
   margin-top: 4.5rem;
