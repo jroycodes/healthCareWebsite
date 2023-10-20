@@ -22,12 +22,12 @@ body {
   background-color: $white;
 }
 
-button{
+button {
   transition: transform 0.3s ease-in-out;
   font-size: large;
 }
 
-button:hover{
+button:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -197,7 +197,7 @@ header {
     justify-content: center;
     gap: 1rem;
 
-    h3{
+    h3 {
       font-size: clamp(1.375rem, 3.5vw, 1.625rem);
     }
   }
@@ -219,7 +219,7 @@ header {
     align-items: center;
     gap: 15rem;
 
-    .wellbeing{
+    .wellbeing {
       gap: 2.5rem;
     }
   }
@@ -250,8 +250,8 @@ h2 {
 }
 
 // MEDIUM
-@media screen and (min-width: 36rem) and (max-width: 62rem){
-  .analytics{
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  .analytics {
     justify-content: center;
     align-items: center;
   }
@@ -280,7 +280,7 @@ h2 {
   max-inline-size: 20ch;
 }
 
-.flexible{
+.flexible {
   display: flex;
   flex-wrap: wrap;
   gap: 3.5rem;
@@ -293,8 +293,8 @@ h2 {
   }
 }
 // MEDIUM
-@media screen and (min-width: 36rem) and (max-width: 62rem){
-  .flexible{
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  .flexible {
     justify-content: center;
     align-items: center;
   }
@@ -307,7 +307,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 15rem;
-   }
+  }
 
   h2 {
     max-inline-size: 16ch;
@@ -321,15 +321,15 @@ h2 {
   color: $white;
 }
 
-.sect5{
+.sect5 {
   display: flex;
   flex-wrap: wrap;
   gap: 3.5rem;
   margin-bottom: 5.6rem;
 }
 // MEDIUM
-@media screen and (min-width: 36rem) and (max-width: 62rem){
-  .sect5{
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  .sect5 {
     justify-content: center;
     align-items: center;
   }
@@ -346,7 +346,6 @@ h2 {
     max-inline-size: 16ch;
   }
 }
-
 
 // SECTION 6
 .section6 {
@@ -372,13 +371,13 @@ h2 {
     font-size: clamp(1.875rem, 2.5vw, 3.5rem);
   }
 
-  .cities{
+  .cities {
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
   }
 
-  .hidden{
+  .hidden {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,26 +386,25 @@ h2 {
   }
 }
 
-@media screen and (min-width: 25rem){
-  .cities img{
-      display: none;
-    }
+@media screen and (min-width: 25rem) {
+  .cities img {
+    display: none;
   }
+}
 
-  @media screen and (max-width: 25rem){
-    .hidden img{
-      display: none;
-    }
-    }
-
+@media screen and (max-width: 25rem) {
+  .hidden img {
+    display: none;
+  }
+}
 
 /* SECTION 7 */
 .section7 {
   margin-top: 4.5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 
   .citys {
     margin-bottom: 1rem;
@@ -414,12 +412,10 @@ h2 {
 
   .marquees {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-
-    .city {
-      display: none;
-    }
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
@@ -431,7 +427,7 @@ h2 {
   min-height: 26.125rem;
 
   .siemens {
-    padding-bottom: 3rem;
+    padding-bottom: 2.8rem;
   }
 
   div {
@@ -441,6 +437,13 @@ h2 {
 
   p {
     line-height: 2.125rem;
+  }
+}
+// MOBILE
+@media screen and (max-width: 46.875rem) {
+  #exception2{
+    background-color: yellowgreen;
+    display: none;
   }
 }
 
