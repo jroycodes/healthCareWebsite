@@ -655,3 +655,24 @@ header {
     }
   }
 }
+
+@media screen and (min-width: 62.063rem){
+  .section10_div{
+    min-width: 85rem;
+    min-height: 39rem;
+  }
+
+  .exchange{
+    display: flex;
+    gap: 20rem;
+  }
+
+  .hide{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20rem;
+  }
+}
+
+
