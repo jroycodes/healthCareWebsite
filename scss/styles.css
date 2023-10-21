@@ -545,7 +545,7 @@ header {
 
 .section9 {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -558,9 +558,9 @@ header {
   gap: 1.5rem;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 2rem;
-  max-width: 20.938rem;
-  min-height: 26.125rem;
+  padding: 1rem;
+  max-width: 20.9rem;
+  min-height: 42.5rem;
 }
 .section9 .sect9_1 span {
   font-size: small;
@@ -586,9 +586,9 @@ header {
   gap: 1.5rem;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 2rem;
-  max-width: 21rem;
-  min-height: 26rem;
+  padding: 1rem;
+  max-width: 20.9rem;
+  min-height: 41.8rem;
 }
 .section9 .sect9_2 span {
   font-size: small;
@@ -608,9 +608,9 @@ header {
   gap: 1.5rem;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 2rem;
-  max-width: 21rem;
-  min-height: 26rem;
+  padding: 1rem;
+  max-width: 20.9rem;
+  min-height: 41.8rem;
 }
 .section9 .sect9_3 button {
   background-color: #ff8484;
@@ -624,6 +624,12 @@ header {
   margin-bottom: 5rem;
 }
 
+@media screen and (min-width: 62.063rem) {
+  .sect9_2 {
+    margin-bottom: 6rem;
+    box-shadow: 0px 54px 124px -20px rgba(90, 82, 41, 0.24);
+  }
+}
 .section10 {
   margin-top: 7rem;
   display: flex;
