@@ -12,6 +12,17 @@
   gap: 1rem;
 }
 
+@media screen and (min-width: 36rem) {
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  .about p {
+    max-inline-size: 62ch;
+  }
+}
 .about_rmh {
   display: flex;
   flex-direction: column;
