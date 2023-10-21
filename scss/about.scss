@@ -13,6 +13,21 @@
   }
 }
 
+.about_rmh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5.6rem;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
+
+// MEDIA QUERIES
 @media screen and (min-width: 36rem) {
   .about {
     display: flex;
