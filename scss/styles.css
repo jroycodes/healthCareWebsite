@@ -309,7 +309,7 @@ header {
   color: #FFFFFF;
 }
 
-h2 {
+.sect h2 {
   max-inline-size: 24ch;
 }
 
@@ -336,7 +336,7 @@ h2 {
     align-items: center;
     gap: 15rem;
   }
-  h2 {
+  .sect h2 {
     max-inline-size: 16ch;
   }
 }
@@ -346,7 +346,7 @@ h2 {
   color: #000000;
 }
 
-h2 {
+.sect h2 {
   max-inline-size: 20ch;
 }
 
@@ -374,7 +374,7 @@ h2 {
     align-items: center;
     gap: 15rem;
   }
-  h2 {
+  .sect h2 {
     max-inline-size: 16ch;
   }
 }
@@ -403,7 +403,7 @@ h2 {
     align-items: center;
     gap: 15rem;
   }
-  h2 {
+  .sect h2 {
     max-inline-size: 16ch;
   }
 }
@@ -427,7 +427,6 @@ h2 {
 }
 .section6 h1 {
   text-align: center;
-  font-size: clamp(1.875rem, 2.5vw, 3.5rem);
 }
 .section6 .cities {
   display: flex;
@@ -514,12 +513,15 @@ h2 {
 }
 .section8 p {
   margin-bottom: 1.5rem;
+  max-inline-size: 80ch;
 }
 .section8 .option1,
 .section8 .option2 {
   display: inline-block;
   padding: 12px 2.5rem;
   margin: 3px;
+  max-width: 17.3rem;
+  min-height: 3rem;
   color: #fff;
   cursor: pointer;
   outline: none;
