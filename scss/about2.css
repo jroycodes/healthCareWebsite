@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.section button {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.section .sect {
+  display: flex;
+  flex-direction: column;
+}
+.section .sect h2 {
+  margin: 0.7rem 0 1.125rem 0;
+}
+.section .sect p {
+  margin-bottom: 3rem;
+}
+.section .analytics img {
+  max-inline-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 3.75rem;
+  z-index: 1;
+  background-color: #F9F7EE;
+}
+
+.baritem {
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.baritem a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:first-child {
+  color: #fc7f3a;
+}
+
+a:hover {
+  color: #fc7f3a;
+}
+
+.sidebar div {
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 1.56rem;
+  font-size: 36px;
+  float: left;
+}
+
+.closebtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn {
+  display: block;
+  font-size: 1.7rem;
+  cursor: pointer;
+  float: right;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.openbtn.hide {
+  display: none;
+}
+
+#main {
+  transition: margin-right 0.5s;
+}
+
+.about2_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.about2_intro p {
+  max-inline-size: 86ch;
+  text-align: center;
+}
+
+.about2_articles,
+.desktopView {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+}
+.about2_articles .about2,
+.desktopView .about2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 20.9rem;
+  min-height: 31rem;
+}
+.about2_articles .about2 div,
+.desktopView .about2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 3rem;
+}
+.about2_articles .about2 button,
+.desktopView .about2 button {
+  max-width: 7.3rem;
+  min-height: 2.2rem;
+  border-radius: 2.8px;
+  border: #fc7f3a;
+  color: #FFFFFF;
+  background-color: #fc7f3a;
+}/*# sourceMappingURL=about2.css.map */
