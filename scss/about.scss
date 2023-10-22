@@ -1,3 +1,8 @@
+@import "./resets";
+@import "./variables";
+@import "./sections";
+@import "./sidebar";
+
 .about {
   margin-top: 3rem;
   display: flex;
@@ -18,11 +23,48 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 5.6rem;
 
-  div {
+  .info {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (min-width: 36rem) {
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    p {
+      max-inline-size: 62ch;
+    }
+  }
+
+  .about_rmh {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+    .info {
+      max-width: 20.3rem;
+      max-height: 15.3rem;
+      border: 1px solid $white;
+      justify-content: space-evenly;
+      align-items: start;
+      text-align: left;
+
+      h3{
+        line-height: 22px
+      }
+
+      p{
+        line-height: 24px;
+      }
+    }
   }
 }
