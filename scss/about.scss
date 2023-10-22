@@ -3,6 +3,10 @@
 @import "./sections";
 @import "./sidebar";
 
+ul{
+ list-style-type: none;
+}
+
 .about {
   margin-top: 3rem;
   display: flex;
@@ -18,7 +22,7 @@
   }
 }
 
-.about_rmh {
+.about_rmh { 
   display: flex;
   flex-direction: column;
   justify-content: center;
