@@ -110,6 +110,10 @@ a:hover {
   transition: margin-right 0.5s;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .about {
   margin-top: 3rem;
   display: flex;
