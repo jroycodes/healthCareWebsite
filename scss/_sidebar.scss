@@ -57,6 +57,10 @@ a:hover{
   color: $primary-color1;
 }
 
+.baritem:active{
+  background-color: $white;
+}
+
 .openbtn {
   display: block;
   font-size: 1.7rem;
