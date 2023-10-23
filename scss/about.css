@@ -93,6 +93,10 @@ a:hover {
   color: #fc7f3a;
 }
 
+.baritem:active {
+  background-color: #FFFFFF;
+}
+
 .openbtn {
   display: block;
   font-size: 1.7rem;
