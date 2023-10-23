@@ -1,0 +1,36 @@
+@import "./resets";
+@import "./variables";
+@import "./sections";
+@import "./sidebar";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .findout {
+    background-color: $primary-color1;
+    color: $white;
+    padding: 0.591rem 1rem;
+    border-radius: 0.625rem;
+    border: none;
+  }
+}
+
+.sect .button {
+  justify-content: left;
+}
+
+.analytics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  margin-bottom: 5.6rem;
+}
+
+// DESKTOP
+@media screen and (min-width: 62.063rem) {
+  .analytics, .flexible, .sect5 {
+    gap: 15rem;
+  }
+}
