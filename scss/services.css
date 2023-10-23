@@ -64,10 +64,6 @@
   color: #000000;
 }
 
-a:first-child {
-  color: #fc7f3a;
-}
-
 a:hover {
   color: #fc7f3a;
 }
