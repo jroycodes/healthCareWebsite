@@ -619,6 +619,7 @@ header {
   padding: 1.2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+  color: #ffffff;
 }
 .section9 .benefits {
   display: flex;
@@ -707,6 +708,7 @@ header {
   border-radius: 10px;
   border: 1px solid #000000;
   margin-bottom: 6rem;
+  color: #000000;
 }
 .section10 .section10_div .nav {
   display: flex;
