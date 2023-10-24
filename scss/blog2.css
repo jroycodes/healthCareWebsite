@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.section button {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.section .sect {
+  display: flex;
+  flex-direction: column;
+}
+.section .sect h2 {
+  margin: 0.7rem 0 1.125rem 0;
+}
+.section .sect p {
+  margin-bottom: 3rem;
+}
+.section .analytics img {
+  max-inline-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 3.75rem;
+  z-index: 1;
+  background-color: #F9F7EE;
+}
+
+.baritem {
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.baritem a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #fc7f3a;
+}
+
+.sidebar div {
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 1.56rem;
+  font-size: 36px;
+  float: left;
+}
+
+.closebtn:hover {
+  color: #fc7f3a;
+}
+
+.openbtn:hover {
+  color: #fc7f3a;
+}
+
+.baritem:active {
+  background-color: #FFFFFF;
+}
+
+.openbtn {
+  display: block;
+  font-size: 1.7rem;
+  cursor: pointer;
+  float: right;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.openbtn.hide {
+  display: none;
+}
+
+#main {
+  transition: margin-right 0.5s;
+}
+
+.info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.375rem;
+}
+.info .date, .info .writter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.info .writter span {
+  color: #fc7f3a;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all .readAll {
+  background-color: #FFFFFF;
+  border: 1px solid #fc7f3a;
+  color: #fc7f3a;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}/*# sourceMappingURL=blog2.css.map */
