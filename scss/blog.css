@@ -45,7 +45,7 @@
   transition: 0.5s;
   padding-top: 3.75rem;
   z-index: 1;
-  background-color: #F9F7EE;
+  background-color: #f9f7ee;
 }
 
 .baritem {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .baritem:active {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .openbtn {
@@ -98,7 +98,7 @@ a:hover {
   font-size: 1.7rem;
   cursor: pointer;
   float: right;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: none;
 }
 
@@ -139,7 +139,7 @@ a:hover {
   gap: 1.25rem;
 }
 .blogArticles .blog button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #fc7f3a;
   border: none;
   font-size: 0.875rem;
