@@ -12,6 +12,10 @@ h2 {
   font-size: clamp(1.875rem, 2.5vw, 3.5rem);
 }
 
+ul{
+  list-style-type: none;
+ }
+ 
 body {
   margin: 2rem;
   display: flex;
@@ -509,6 +513,10 @@ header {
   align-items: center;
   gap: 2rem;
   margin-top: 5.5rem;
+
+  h4{
+    font-size: 2.75rem;
+  }
 
   //Standard
   .sect9_1 {
