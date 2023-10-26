@@ -40,7 +40,6 @@ img {
   object-fit: contain;
 }
 
-// SECTION 0
 header {
   display: flex;
   justify-content: space-between;
@@ -51,7 +50,6 @@ header {
   display: flex;
 }
 
-// DESKTOP
 .desktop_menu {
   display: flex;
   justify-content: center;
@@ -80,7 +78,6 @@ header {
   }
 }
 
-// DROPDOWN MENU
 .dropdown {
   overflow: hidden;
 
@@ -135,7 +132,6 @@ header {
   border: $primary-color1;
 }
 
-// MOBILE
 @media screen and (max-width: 36rem) {
   .desktop_menu,
   .getStarted button {
@@ -143,7 +139,6 @@ header {
   }
 }
 
-// TABLET
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
   header {
     justify-content: center;
@@ -171,7 +166,6 @@ header {
   }
 }
 
-// DESKTOP
 @media screen and (min-width: 62.063rem) {
   header {
     justify-content: space-evenly;
@@ -191,7 +185,6 @@ header {
   }
 }
 
-// SECTION 1
 .section1 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -215,7 +208,6 @@ header {
   }
 }
 
-// SECTION 2 responsive
 .section2 {
   display: flex;
   flex-wrap: wrap;
@@ -274,7 +266,6 @@ header {
   }
 }
 
-// SECTION 3 RESPONSIVE
 .analytic {
   background-color: $primary-color1;
   border: 1px solid $primary-color1;
@@ -298,7 +289,6 @@ header {
   }
 }
 
-// MEDIUM
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
   .analytics {
     justify-content: center;
@@ -306,7 +296,6 @@ header {
   }
 }
 
-// DESKTOP
 @media screen and (min-width: 62.063rem) {
   .analytics {
     justify-content: center;
@@ -319,7 +308,6 @@ header {
   }
 }
 
-// SECTION 4
 .flexibility {
   background-color: $primary-color4;
   border: 1px solid $primary-color4;
@@ -342,7 +330,7 @@ header {
     max-inline-size: 38ch;
   }
 }
-// MEDIUM
+
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
   .flexible {
     justify-content: center;
@@ -350,7 +338,6 @@ header {
   }
 }
 
-// DESKTOP
 @media screen and (min-width: 62.063rem) {
   .flexible {
     flex-direction: row-reverse;
@@ -364,7 +351,6 @@ header {
   }
 }
 
-// SECTION 5
 .business {
   background-color: $primary-color3;
   border: 1px solid $primary-color3;
@@ -377,7 +363,7 @@ header {
   gap: 3.5rem;
   margin-bottom: 5.6rem;
 }
-// MEDIUM
+
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
   .sect5 {
     justify-content: center;
@@ -385,7 +371,6 @@ header {
   }
 }
 
-// DESKTOP
 @media screen and (min-width: 62.063rem) {
   .sect5 {
     justify-content: center;
@@ -397,7 +382,6 @@ header {
   }
 }
 
-// SECTION 6
 .section6 {
   margin-top: 5rem;
   display: flex;
@@ -447,7 +431,6 @@ header {
   }
 }
 
-/* SECTION 7 */
 .section7 {
   margin-top: 4.5rem;
   display: flex;
@@ -488,14 +471,13 @@ header {
     line-height: 2.125rem;
   }
 }
-// MOBILE
+
 @media screen and (max-width: 46.875rem) {
   #exception2 {
     display: none;
   }
 }
 
-// SECTION 8
 .section8 {
   display: flex;
   flex-direction: column;
@@ -551,7 +533,6 @@ header {
   }
 }
 
-// SECTION 9
 .section9 {
   display: flex;
   flex-wrap: wrap;
@@ -564,7 +545,6 @@ header {
     font-size: 2.75rem;
   }
 
-  //Standard
   .sect9_1 {
     display: flex;
     flex-direction: column;
@@ -599,7 +579,6 @@ header {
     margin-bottom: 1rem;
   }
 
-  //Premium
   .sect9_2 {
     display: flex;
     flex-direction: column;
@@ -659,7 +638,6 @@ header {
   }
 }
 
-// SECTION 10
 .section10 {
   margin-top: 7rem;
   display: flex;
